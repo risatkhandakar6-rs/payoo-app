@@ -10,10 +10,10 @@ document.getElementById('login-btn').addEventListener('click', function () {
   // condition
   if (contactNumber == '01927307905' && loginpass == '1111') {
     alert('login succesfully')
-    window.location.assign("/home.html")
+    window.location.assign("home.html")
   }
   else {
     alert('login failed')
     return;
   }
-})
+});
